@@ -1,0 +1,9 @@
+{
+    "appName": "Navigation Link",
+    "api": {
+        "relativeUrl": "appNavigationLink"
+    },
+    "appRoutes": {
+        "baseUrl": "navigationlinks"
+    }
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "65959abbe0317640755392c3",
+        "flexId": "1002",
+        "name": "OSS Metals",
+        "isInactive": false,
+        "maxUserCount": 10
+    },
+    {
+        "_id": "65959abbe0317640755392c7",
+        "flexId": "1000",
+        "name": "Paapri Cloud Technologies",
+        "isInactive": false,
+        "maxUserCount": 10
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "appName":"CLASS",
+    "api":{
+        "relativeUrl": "class"
+    },
+    "appRoutes":{
+        "baseUrl":"classes"
+    }
+}

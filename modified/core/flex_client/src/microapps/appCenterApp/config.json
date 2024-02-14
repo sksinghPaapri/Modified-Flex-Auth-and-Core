@@ -1,0 +1,9 @@
+{
+    "appName": "APP CENTERS",
+    "api": {
+        "relativeUrl": "appCenter"
+    },
+    "appRoutes": {
+        "baseUrl": "appcenters"
+    }
+}

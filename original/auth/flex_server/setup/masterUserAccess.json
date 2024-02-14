@@ -1,0 +1,41 @@
+[
+    {
+        "flexId": [
+            "65959abbe0317640755392c3"
+        ],
+        "email": "clathan@ossmetals.com",
+        "password": "Flex@2024",
+        "passwordConfirm": "Flex@2024",
+        "giveAccess": true
+    },
+    {
+        "flexId": [
+            "65959abbe0317640755392c3",
+            "65959abbe0317640755392c7"
+        ],
+        "email": "piyas@paapri.com",
+        "password": "Flex@2024",
+        "passwordConfirm": "Flex@2024",
+        "giveAccess": true
+    },
+    {
+        "flexId": [
+            "65959abbe0317640755392c3",
+            "65959abbe0317640755392c7"
+        ],
+        "email": "rnawaz@paapri.com",
+        "password": "Flex@2024",
+        "passwordConfirm": "Flex@2024",
+        "giveAccess": true
+    },
+    {
+        "flexId": [
+            "65959abbe0317640755392c3",
+            "65959abbe0317640755392c7"
+        ],
+        "email": "sksingh@paapri.com",
+        "password": "Flex@2024",
+        "passwordConfirm": "Flex@2024",
+        "giveAccess": true
+    }
+]
