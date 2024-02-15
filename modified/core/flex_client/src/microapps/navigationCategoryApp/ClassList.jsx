@@ -65,12 +65,11 @@ export default function ClassList() {
     },
     { headerName: "NAME", field: "name" },
     // { headerName: 'SUPERVISOR', field: 'supervisor', valueGetter: (params) => params.data?.supervisor ? params.data?.supervisor[0]?.name : "Not Available" },
-    { headerName: "DESCRIPTION", field: "label" },
-    { headerName: "DESCRIPTION", field: "name" },
-    { headerName: "DESCRIPTION", field: "type" },
-    { headerName: "PERMISSIONCODE", field: "permissionCode" },
-
-    // { headerName: "NAVIGATIONITEMS", field: "navigationItems[0]" },
+    { headerName: "LABEL", field: "label" },
+    // { headerName: "NAME", field: "name" },
+    { headerName: "TYPE", field: "type" },
+    { headerName: "PERMISSION CODE", field: "permissionCode" },
+    // { headerName: "NAVIGATIONITEMS", field: "navigationItems" },
   ];
 
   useEffect(() => {

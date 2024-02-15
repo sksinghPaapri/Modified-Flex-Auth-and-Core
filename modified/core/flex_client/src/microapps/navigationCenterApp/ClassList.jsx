@@ -66,8 +66,8 @@ export default function ClassList() {
     { headerName: "NAME", field: "name" },
 
     // { headerName: 'SUPERVISOR', field: 'supervisor', valueGetter: (params) => params.data?.supervisor ? params.data?.supervisor[0]?.name : "Not Available" },
-    { headerName: "NAVIGATIONCENTERID", field: "navigationCenterId" },
-    { headerName: "BASEROUTE", field: "baseRoute" },
+    { headerName: "NAVIGATION CENTER ID", field: "navigationCenterId" },
+    { headerName: "BASE ROUTE", field: "baseRoute" },
     { headerName: "TYPE", field: "type" },
   ];
 

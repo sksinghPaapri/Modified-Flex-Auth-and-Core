@@ -14,6 +14,7 @@ const appNavigationLinkRoutes = require("../modules/appNavigationLink/appNavigat
 const appNavigationCategoryRoutes = require("../modules/appNavigationCategory/appNavigationCategoryRoutes");
 const appNavigationCenterRoutes = require("../modules/appNavigationCenter/appNavigationCenterRoutes");
 const customDocumentTypeRoutes = require("../modules/customDocumentType/customDocumentTypeRoutes");
+const appNavigationCenterModelNavigation = require("../modules/appNavigationCenterModelNavigationController/appNavigationCenterModelNavigationRoutes");
 
 const connectionRoutes = require("../modules/connection/connectionRoutes");
 const netsuiteCRUDRoutes = require("../modules/netsuite/routes/netsuiteCRUDRoutes");
@@ -37,6 +38,10 @@ router.use("/customList", customListRoutes);
 router.use("/appNavigationLink", appNavigationLinkRoutes);
 router.use("/appNavigationCategory", appNavigationCategoryRoutes);
 router.use("/appNavigationCenter", appNavigationCenterRoutes);
+router.use(
+  "/appNavigationCenterModelNavigation",
+  appNavigationCenterModelNavigation
+);
 
 router.use("/customDocumentType", customDocumentTypeRoutes);
 router.use("/connection", connectionRoutes);

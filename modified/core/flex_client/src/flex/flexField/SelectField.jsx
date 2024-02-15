@@ -55,6 +55,7 @@ export default function SelectField({
         rules={{ required: field?.required ? field?.validationMessage : false }}
         render={({ field: { onChange, value }, fieldState: { error } }) => (
           <Typeahead
+            clearButton
             key={index}
             size="sm"
             className="is-invalid"
@@ -62,6 +63,11 @@ export default function SelectField({
             id="flex-typeahead-select-id"
             isInvalid={errors[field?.fieldId]}
             labelKey="name"
+            // labelKey={(option) => {
+            //   if (option.text) return `${option?.text}`;
+            //   if (option.name) return `${option?.name}`;
+            //   if (option.name == "" || option.text == "") return ``;
+            // }}
             multiple={field?.multiple}
             onChange={(event) => {
               onChange(event);
@@ -81,7 +87,7 @@ export default function SelectField({
                 targetValue: event.target?.value,
               })
             }
-            options={state}
+            options={field?.customData?.length ? field?.customData : state}
             placeholder={field.placeholder}
             selected={value}
             flip={true}

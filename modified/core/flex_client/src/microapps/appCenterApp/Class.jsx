@@ -218,21 +218,47 @@ export default function Class() {
               changeHandler={null}
               blurHandler={null}
             />
-
-            <TextArea
+            <TextField
               register={register}
               errors={errors}
               field={{
-                description: "Class Name",
-                label: "DESCRIPTION",
-                fieldId: "description",
+                description: "Link",
+                label: "LINK",
+                fieldId: "link",
                 placeholder: "",
-                required: false,
-                //validationMessage: "Please enter the department name!"
+                required: true,
+                validationMessage: "Please enter the abrreviation!",
               }}
               changeHandler={null}
               blurHandler={null}
             />
+            <TextField
+              register={register}
+              errors={errors}
+              field={{
+                description: "IconName",
+                label: "ICON NAME",
+                fieldId: "iconName",
+                placeholder: "",
+                required: true,
+                validationMessage: "Please enter the IconName!",
+              }}
+              changeHandler={null}
+              blurHandler={null}
+            />
+            {/* <TextField
+              register={register}
+              errors={errors}
+              field={{
+                description: "PermissionCode",
+                label: "PERMISSION CODE",
+                fieldId: "permissionCode",
+                placeholder: "",
+                required: true,
+              }}
+              changeHandler={null}
+              blurHandler={null}
+            /> */}
           </Row>
         </Container>
 

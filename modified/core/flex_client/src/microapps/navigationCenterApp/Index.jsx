@@ -1,7 +1,7 @@
 import React from "react";
+import Class from "../navigationCenterApp/Class";
+import ClassList from "../navigationCenterApp/ClassList";
 import { Routes, Route } from "react-router-dom";
-import Class from "./Class";
-import ClassList from "./ClassList";
 
 export default function NavigationCenterApp() {
   return (
